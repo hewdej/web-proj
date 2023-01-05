@@ -1,0 +1,23 @@
+/* Header */
+.header{
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(75, 99, 75);
+}
+
+h1{
+    display: flex;
+    font-size: 14;
+    margin: 15px;
+    color: black;
+}
+
+h2{
+    display: grid;
+    justify-content: center;
+    background-color:rgb(143, 78, 186);
+    padding: 25px; 
+    margin: 0%;
+}

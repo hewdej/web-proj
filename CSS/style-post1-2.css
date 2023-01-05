@@ -1,0 +1,38 @@
+/* media quaries for picture */
+img{
+    width: 100%;
+    height: auto;
+} 
+    
+/* picture style */
+#card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 25px 25px 25px 25px 25px;
+    gap: 25px;
+    transition: 0.3s;
+}
+
+/* picture background style */
+.box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: rgb(206, 190, 249);
+}
+
+@media (min-width: 960px){
+    .box {
+        padding: 0px 20px;
+        min-width: auto;
+        background-color: rgb(234, 235, 235);
+    }
+}
+@media (min-width: 600px){
+    .box {
+        padding: 0px 20px;
+        min-width: auto;
+        background-color: rgb(234, 235, 235);
+    }
+}

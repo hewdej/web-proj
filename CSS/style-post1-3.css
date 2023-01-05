@@ -1,0 +1,23 @@
+/* style footer */
+
+.footer{
+    background-color:rgb(134, 166, 126);
+    font-style: italic;
+    padding: 10px;
+    text-align: center; 
+    font-weight: bold;
+    color:azure
+}
+
+.footer button {
+    margin:5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5pt;
+    background:rgb(245, 226, 226)
+}
+
+.footer button:hover {
+    color: blueviolet;
+    background-color: bisque;
+}

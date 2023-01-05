@@ -1,0 +1,170 @@
+body{
+    display: grid;
+    padding: 30px;
+    margin: auto;
+    color:black;
+} 
+
+/* Header */
+.header {
+    display: flex;
+    padding: 0px 10px; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 108, 79);
+}
+
+h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    display: grid;
+    background-color: rgb(195, 140, 224);
+    padding: 15px; 
+    margin: 0; 
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+/* style unordered list item */
+.nav a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: all .3s ease-out;
+}
+
+/* rotate list item 3deg */
+.nav a:hover{
+    color: blue;
+    transform: rotate(3deg);
+}
+
+/* style list item */
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+/* space between home, shop, about, and contact */
+.nav li{
+    margin-left: 25px;
+}
+
+/* image of flower */
+.photo {
+    display: grid;
+    margin: 5px auto; 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 960px){
+    .photo{
+        padding: 0px 20px;
+        background-color: rgb(226, 201, 249);
+    }
+}
+@media (min-width: 600px){
+    .photo{
+        padding: 0px 20px;
+        background-color: rgb(226, 201, 249);
+    }
+}
+
+
+#author {
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(84, 118, 95) 
+}
+
+.author-inner{
+    padding: 5px 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 45px;
+}
+
+.about span{
+    font-family:  monospace;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* about me paragraph line-height */
+.about p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+}
+
+.contact span{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.contact a{
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: block;
+    color: rgb(59, 53, 74);
+}
+
+.contact a:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.socials span{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* add font style */
+.socials a{
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(59, 53, 74);
+    display: block;
+    text-decoration: none;
+}
+
+/* add a hover */
+.socials a:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+/* style footer */
+.footer{
+    background-color:rgb(107, 135, 100);
+    font-style: italic;
+    padding: 0px;
+    text-align: center; 
+    font-weight: bold;
+    color: lightgray;
+}
+
+.footer button {
+    margin: 7px;
+    font-size: 15px;
+    text-justify:  center;
+}
+
+.footer button:hover {
+    color: blueviolet;
+    background-color: rgb(171, 169, 167);
+}
